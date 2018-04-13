@@ -1,0 +1,117 @@
+
+
+img
+{
+	width: 100%;
+
+}
+html, body {
+  height:100%;
+
+}
+body {
+ background-image: url("backg.jpeg");
+  display:flex;
+  align-items:center;
+  background-color:
+}
+.button {
+    background: #89C834;
+ /* box-shadow: 0px 2px 20px 2px rgba(255,114,132,0.50);
+ */ border-radius: 8px;
+  padding: 15px 30px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;  
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pol {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    margin-left: 50px;
+ transition: 0.3s;
+     padding-bottom: 15px;
+}
+.pol:hover {
+    box-shadow: 10px 10px 5px grey;
+     cursor: pointer;
+}
+.pol1 {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+   transition: 0.3s;
+  margin-left: 90px;
+          padding-bottom: 15px;
+}
+.pol1:hover {
+    box-shadow: 10px 10px 5px grey;
+     cursor: pointer;
+}
+
+.pol2 {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    margin-left: 90px;
+    
+            padding-bottom: 15px;
+             transition: 0.3s;
+}
+.pol2:hover {
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.pol3 {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    margin-left: 90px;
+            padding-bottom: 15px;
+             transition: 0.3s;
+}
+
+.pol3:hover {
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+
+.containerr {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: white;
+   font-family:Arial;
+
+
+
+}
+.containerrr {
+  padding: 10px;
+  margin-left: 20px;  font-size: 18px;
+    color: white;  
+}
+.con1 {
+  padding: 10px;
+  margin-left: 30px;
+   font-size: 18px;
+     color: white;
+}
+.con2 {
+  padding: 10px;
+  margin-left: 40px;
+   font-size: 18px;
+     color: white;
+}

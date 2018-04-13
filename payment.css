@@ -1,0 +1,113 @@
+body { 
+  margin:50px auto; width:600px;
+  margin-top: 100px;
+ 
+  background-color:#222629;
+}
+
+/* CSS for Credit Card Payment form */
+.question{
+  margin-top: -25px;
+  margin-left: 57px;
+  width: 8%;
+  background-color: #1180B6;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+
+
+}
+
+
+.qw{
+ display: none;
+ width: 0;
+ height:0;
+ margin-top: -40px;
+ margin-left: 80px;
+ position: absolute;
+
+   
+}
+.question:hover ~ .qw
+{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height:120px;
+}
+ 
+
+ .questionn{
+  margin-top: -25px;
+  margin-left:138px;
+  width: 6%;
+  background-color: #1180B6;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+
+}
+.qww{
+ display: none;
+ width: 0;
+ height:0;
+ margin-top: -40px;
+ margin-left: 150px;
+ position: absolute;
+
+   
+}
+.questionn:hover ~ .qww
+{
+  display: block;
+  position: absolute;
+  width: 50%;
+  height:120px;
+}
+
+
+
+.credit-card-box .panel-title {
+
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top:2px;
+}
+.credit-card-box .payment-errors {
+
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 52px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
